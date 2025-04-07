@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "897759500405",
+    "project_id": "bluster-c6a36",
+    "storage_bucket": "bluster-c6a36.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897759500405:android:ba3cb7a2b637350d90803c",
+        "android_client_info": {
+          "package_name": "com.bluster1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2y-bXglQ7mVlzxUgKABNFG0OpodhJJMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
