@@ -21,7 +21,7 @@ const Shoping = () => {
     <TouchableOpacity style={styles.card} onPress={() => navigation.navigate('Shopingdetail', { data: item })}>
       <Image source={item.image} style={styles.image} />
       <View style={styles.container}>
-        <Text style={styles.title}>{item.title}</Text>
+        {/* <Text style={styles.title}>{item.title}</Text> */}
         {item.rating && (
           <AirbnbRating
             count={5}
@@ -34,7 +34,7 @@ const Shoping = () => {
           />
         )}
         <Text style={styles.rate}>₹{item.rate}</Text>
-        <Text style={styles.text}>{item.text}</Text>
+        {/* <Text style={styles.text}>{item.text}</Text> */}
       </View>
     </TouchableOpacity>
   );
